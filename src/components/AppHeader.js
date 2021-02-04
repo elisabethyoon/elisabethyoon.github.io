@@ -1,6 +1,11 @@
 import React, { Component } from "react";
+import data from "../data/portfolioData";
+console.log(data, "111");
 
 function AppHeader() {
+  const { name, position } = data.profile;
+  const { mail, github } = data.contact;
+
   return (
     <div>
       <header className="header-contents">
@@ -47,8 +52,8 @@ function AppHeader() {
         <div className="profile-contents">
           <div className="user-image"></div>
           <div className="user-info">
-            <h1 className="user-name">윤엘리사벳</h1>
-            <h3 className="user-position">Front-end Developer</h3>
+            <h1 className="user-name">{name}</h1>
+            <h3 className="user-position">{position}</h3>
           </div>
           <div className="info-wrapper">
             <dl className="info-list">
@@ -59,7 +64,7 @@ function AppHeader() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  careerwowan87@gmail.com
+                  {mail}
                 </a>
               </dd>
             </dl>
@@ -71,10 +76,11 @@ function AppHeader() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  https://github.com/elisabethyoon
+                  {github}
                 </a>
               </dd>
             </dl>
+            <p className="info-text">* 본 페이지는 React로 제작되었습니다.</p>
           </div>
         </div>
       </div>
