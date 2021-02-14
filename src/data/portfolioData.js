@@ -32,7 +32,8 @@ const data = {
         id: 2,
         gif: images.portFolioGIF1,
         subject: "React & Mobx Todolist 애플리케이션",
-        summary: "CRUD TodoList 애플리케이션 (상태관리 - Mobx)",
+        summary:
+          "검색필터 기능의 CRUD TodoList 애플리케이션  (상태관리 - Mobx)",
         url: "https://github.com/elisabethyoon/React-TodoList",
         skills: "React / Mobx / javascript"
       }
