@@ -22,17 +22,17 @@ const data = {
     personalProject: [
       {
         id: 1,
-        subject: "React - 학습 노트 애플리케이션",
-        summary: "Axios를 이용한 REST API 기반의 CRUD 학습노트 애플리케이션",
+        subject: "React & Mobx 학습 노트 애플리케이션",
+        summary: "REST API 기반의 CRUD 학습노트 애플리케이션 (상태관리 - Mobx)",
         url: "https://github.com/elisabethyoon/React-NoteApp",
-        skills: "React / React Router / mobx / Axios / javascript"
+        skills: "React / Mobx / React Router / Axios / javascript"
       },
       {
         id: 2,
-        subject: "React - Todolist 애플리케이션",
-        summary: "Axios를 이용한 REST API 기반의 CRUD TodoList 애플리케이션",
+        subject: "React & Mobx Todolist 애플리케이션",
+        summary: "CRUD TodoList 애플리케이션 (상태관리 - Mobx)",
         url: "https://github.com/elisabethyoon/React-TodoList",
-        skills: "React / React Router / mobx / Axios / javascript"
+        skills: "React / Mobx / javascript"
       }
     ],
     companyProject: [
@@ -40,15 +40,17 @@ const data = {
         id: 1,
         subject: "다이사 원룸 리뉴얼 / React",
         images: images.portFolioImage1,
+        url: "https://oneroom.wematch.com/requests/order",
         skills: "React / Axios / styled-component / javascript",
         period: "2020년 7월 ~ 2020년 10월",
         type: "반응형",
-        todo: ["- component작업 / api호출 등 서브작업 위주", "- 기여도 : 30%"]
+        todo: ["- component작업 / api호출 등 서브작업 위주", "- 기여도 : 20%"]
       },
       {
         id: 2,
         subject: "위매치부동산 리뉴얼",
         images: images.portFolioImage2,
+        url: "https://www.ozshouse.com/",
         skills: "HTML5, css3, javascript, jquery",
         period: "2020년 4월 ~ 2020년 6월",
         type: "PC / MO",
@@ -63,6 +65,7 @@ const data = {
         id: 3,
         subject: "위매치다이사",
         images: images.portFolioImage3,
+        url: "https://da24.wematch.com/",
         skills: "HTML5, css3, javascript, jquery",
         period: "2020년 2월 ~ 2020년 3월",
         type: "반응형",
@@ -76,19 +79,21 @@ const data = {
         id: 4,
         subject: "마켓디자이너스 / Vue",
         images: images.portFolioImage4,
-        skills: "Vue / Vue Router / Nuxt / scss / Axios / javascript",
+        url: "https://marketdesigners.com/",
+        skills: "Vue / Vue Router / Nuxt / sass / Axios / javascript",
         period: "2019년 7월 ~ 2019년 10월",
         type: "반응형 / 리뉴얼",
         todo: [
           "- 기존 마크업 업무에서 Vue 언어로 신규 도입 후 첫 프로젝트 진행",
           "- component작업 / api호출 등 서브작업 위주",
-          "- 기여도 : 60%"
+          "- 기여도 : 40%"
         ]
       },
       {
         id: 5,
         subject: "위매치다이사 파트너",
         images: images.portFolioImage5,
+        url: "https://da24.wematch.com/",
         skills: "HTML5, css3, javascript, jquery",
         period: "2019년 4월 ~ 2019년 12월",
         type: "반응형",
@@ -103,6 +108,7 @@ const data = {
         id: 6,
         subject: "위매치다이사",
         images: images.portFolioImage6,
+        url: "https://da24.wematch.com/",
         skills: "HTML5, css3, javascript, jquery",
         period: "2018년 8월 ~ 2018년 11월",
         type: "PC/MO / 리뉴얼",
@@ -117,10 +123,12 @@ const data = {
         id: 7,
         subject: "더 모기지",
         images: images.portFolioImage7,
+        url: "http://www.toppingmoney.com/",
         skills: "HTML5, css3, javascript, jquery",
         period: "2018년 1월 ~ 2018년 6월",
         type: "PC/MO",
         todo: [
+          "- 서비스명 변경 '더 모기지' -> '위매치머니' -> (현)'토핑머니'",
           "- 전 페이지 마크업",
           "- javascript/jquery 스크립트 개발",
           "- 기여도 : MO - 100% / PC - 100%"
@@ -130,6 +138,7 @@ const data = {
         id: 8,
         subject: "마켓디자이너스",
         images: images.portFolioImage8,
+        url: "https://marketdesigners.com/",
         skills: "HTML5, css3, javascript, jquery",
         period: "2017년 11월 ~ 2017년 12월",
         type: "PC/MO",

@@ -1,13 +1,15 @@
-import React, { Component } from "react";
+import React from "react";
 import data from "../data/portfolioData";
 
-function MainPage() {
+function MainPage(props) {
   const { company, period, position, todo } = data.career;
   const { personalProject, companyProject } = data.portfolio;
-
+  const { aboutRef, portFolioRef, contactRef } = props;
   return (
     <div className="main-contents">
-      <div className="title-menu">ABOUT</div>
+      <div className="title-menu" ref={aboutRef}>
+        ABOUT
+      </div>
       <div className="about-section">
         <ul className="list-container">
           <li className="item">
@@ -40,7 +42,9 @@ function MainPage() {
           </li>
         </ul>
       </div>
-      <div className="title-menu">PORTFOLIO</div>
+      <div className="title-menu" ref={portFolioRef}>
+        PORTFOLIO
+      </div>
       <div className="portfolio-section">
         <section className="personal-project">
           <h3 className="section-title">
@@ -58,7 +62,7 @@ function MainPage() {
                     </div>
                     <div className="url">
                       <a
-                        href="https://github.com/elisabethyoon/React-NoteApp"
+                        href={list.url}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -82,7 +86,7 @@ function MainPage() {
             <span>W</span>ork experience
           </h3>
           <p className="stack">
-            stack : React, Vue, HTML5, css3, scss, styled-component, javascript,
+            stack : React, Vue, HTML5, css3, sass, styled-component, javascript,
             jquery
           </p>
           <ul className="portfolio-list">
@@ -96,7 +100,7 @@ function MainPage() {
                   }}
                 >
                   <a
-                    href="https://oneroom.wematch.com/requests/order"
+                    href={list.url}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="link"
@@ -121,7 +125,9 @@ function MainPage() {
           </ul>
         </section>
       </div>
-      <div className="title-menu">CONTACT</div>
+      <div className="title-menu" ref={contactRef}>
+        CONTACT
+      </div>
       <div className="contact-section">
         <div className="user-info">
           <h1 className="user-name">

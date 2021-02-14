@@ -1,39 +1,32 @@
 import React, { Component } from "react";
 import data from "../data/portfolioData";
-console.log(data, "111");
 
-function AppHeader() {
+function AppHeader({ handleScrollMove }) {
+  const onClickHeader = (type) => {
+    handleScrollMove(type);
+  };
+
   const { name, position } = data.profile;
   const { mail, github } = data.contact;
-
   return (
     <div>
       <header className="header-contents">
         <div className="wrap-header">
           <ul>
-            <li className="gnb-menu">
-              <a
-                href="https://github.com/elisabethyoon"
-                rel="noopener noreferrer"
-              >
-                ABOUT
-              </a>
+            <li className="gnb-menu" onClick={() => onClickHeader("aboutRef")}>
+              ABOUT
             </li>
-            <li className="gnb-menu">
-              <a
-                href="https://github.com/elisabethyoon"
-                rel="noopener noreferrer"
-              >
-                PORTFOLIO
-              </a>
+            <li
+              className="gnb-menu"
+              onClick={() => onClickHeader("portFolioRef")}
+            >
+              PORTFOLIO
             </li>
-            <li className="gnb-menu">
-              <a
-                href="https://github.com/elisabethyoon"
-                rel="noopener noreferrer"
-              >
-                CONTACT
-              </a>
+            <li
+              className="gnb-menu"
+              onClick={() => onClickHeader("contactRef")}
+            >
+              CONTACT
             </li>
           </ul>
         </div>
