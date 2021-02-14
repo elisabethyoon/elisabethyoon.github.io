@@ -1,29 +1,31 @@
 {
   "files": {
-    "main.css": "/elly-portfolio/static/css/main.d9ad45d9.chunk.css",
-    "main.js": "/elly-portfolio/static/js/main.83f0c257.chunk.js",
-    "main.js.map": "/elly-portfolio/static/js/main.83f0c257.chunk.js.map",
+    "main.css": "/elly-portfolio/static/css/main.823ade3c.chunk.css",
+    "main.js": "/elly-portfolio/static/js/main.b899b080.chunk.js",
+    "main.js.map": "/elly-portfolio/static/js/main.b899b080.chunk.js.map",
     "runtime-main.js": "/elly-portfolio/static/js/runtime-main.9b6d3331.js",
     "runtime-main.js.map": "/elly-portfolio/static/js/runtime-main.9b6d3331.js.map",
-    "static/js/2.7ca0451e.chunk.js": "/elly-portfolio/static/js/2.7ca0451e.chunk.js",
-    "static/js/2.7ca0451e.chunk.js.map": "/elly-portfolio/static/js/2.7ca0451e.chunk.js.map",
+    "static/js/2.3c1ae713.chunk.js": "/elly-portfolio/static/js/2.3c1ae713.chunk.js",
+    "static/js/2.3c1ae713.chunk.js.map": "/elly-portfolio/static/js/2.3c1ae713.chunk.js.map",
     "index.html": "/elly-portfolio/index.html",
-    "static/css/main.d9ad45d9.chunk.css.map": "/elly-portfolio/static/css/main.d9ad45d9.chunk.css.map",
-    "static/js/2.7ca0451e.chunk.js.LICENSE.txt": "/elly-portfolio/static/js/2.7ca0451e.chunk.js.LICENSE.txt",
+    "static/css/main.823ade3c.chunk.css.map": "/elly-portfolio/static/css/main.823ade3c.chunk.css.map",
+    "static/js/2.3c1ae713.chunk.js.LICENSE.txt": "/elly-portfolio/static/js/2.3c1ae713.chunk.js.LICENSE.txt",
     "static/media/da24Renewal.337c9058.png": "/elly-portfolio/static/media/da24Renewal.337c9058.png",
     "static/media/marketdesigners.0356a774.png": "/elly-portfolio/static/media/marketdesigners.0356a774.png",
     "static/media/marketdesigners_vue.24d1f892.png": "/elly-portfolio/static/media/marketdesigners_vue.24d1f892.png",
+    "static/media/noteapp.a438c82b.gif": "/elly-portfolio/static/media/noteapp.a438c82b.gif",
     "static/media/oneroom-wematch.9dfa3c8b.png": "/elly-portfolio/static/media/oneroom-wematch.9dfa3c8b.png",
     "static/media/partner.1a4f40f5.png": "/elly-portfolio/static/media/partner.1a4f40f5.png",
     "static/media/index.scss": "/elly-portfolio/static/media/profile_img3.a2baacfe.jpg",
     "static/media/themortgage.19d99c25.png": "/elly-portfolio/static/media/themortgage.19d99c25.png",
+    "static/media/todolist.37824f67.gif": "/elly-portfolio/static/media/todolist.37824f67.gif",
     "static/media/wematch-land.a034c17e.png": "/elly-portfolio/static/media/wematch-land.a034c17e.png",
     "static/media/wematchda24.8b3f9c94.png": "/elly-portfolio/static/media/wematchda24.8b3f9c94.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9b6d3331.js",
-    "static/js/2.7ca0451e.chunk.js",
-    "static/css/main.d9ad45d9.chunk.css",
-    "static/js/main.83f0c257.chunk.js"
+    "static/js/2.3c1ae713.chunk.js",
+    "static/css/main.823ade3c.chunk.css",
+    "static/js/main.b899b080.chunk.js"
   ]
 }
