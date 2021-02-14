@@ -50,18 +50,6 @@ function AppHeader({ handleScrollMove }) {
           </div>
           <div className="info-wrapper">
             <dl className="info-list">
-              <dt>Email -</dt>
-              <dd className="profile-url">
-                <a
-                  href="mailto: careerwowan87@gmail.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {mail}
-                </a>
-              </dd>
-            </dl>
-            <dl className="info-list">
               <dt>Github -</dt>
               <dd className="profile-url">
                 <a

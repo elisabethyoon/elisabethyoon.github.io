@@ -22,6 +22,7 @@ const data = {
     personalProject: [
       {
         id: 1,
+        gif: images.portFolioGIF2,
         subject: "React & Mobx 학습 노트 애플리케이션",
         summary: "REST API 기반의 CRUD 학습노트 애플리케이션 (상태관리 - Mobx)",
         url: "https://github.com/elisabethyoon/React-NoteApp",
@@ -29,6 +30,7 @@ const data = {
       },
       {
         id: 2,
+        gif: images.portFolioGIF1,
         subject: "React & Mobx Todolist 애플리케이션",
         summary: "CRUD TodoList 애플리케이션 (상태관리 - Mobx)",
         url: "https://github.com/elisabethyoon/React-TodoList",

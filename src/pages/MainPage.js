@@ -54,7 +54,7 @@ function MainPage(props) {
             {personalProject.map((list) => {
               return (
                 <li className="list-item" key={list.id}>
-                  <div className="image"></div>
+                  <img src={list.gif} alt="portfolioGif" className="image" />
                   <div className="description">
                     <h4 className="project-title">{list.subject}</h4>
                     <div className="summary">
@@ -142,15 +142,6 @@ function MainPage(props) {
               rel="noopener noreferrer"
             >
               Github
-            </a>
-          </div>
-          <div className="contact-box">
-            <a
-              href="mailto: careerwowan87@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Email
             </a>
           </div>
         </div>
