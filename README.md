@@ -9,7 +9,13 @@ yarn install
 
 # 개발 환경 실행
 yarn start
-
 ```
 ## 주요 기술 스택
-* React / mobx / HTML5 / css3 / sass / styled-component / javascript / jquery
+* React
+* Mobx
+* HTML5
+* CSS3
+* Sass
+* Styled-component
+* javascript
+* jquery
