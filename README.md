@@ -15,7 +15,7 @@ yarn start
 * Mobx
 * HTML5
 * CSS3
-* Sass
+* SCSS
 * Styled-component
 * javascript
 * jquery
