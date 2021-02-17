@@ -86,7 +86,7 @@ function MainPage(props) {
             <span>W</span>ork experience
           </h3>
           <p className="stack">
-            stack : React, Vue, HTML5, css3, sass, styled-component, javascript,
+            stack : React, Vue, HTML5, css3, SCSS, styled-component, javascript,
             jquery
           </p>
           <ul className="portfolio-list">

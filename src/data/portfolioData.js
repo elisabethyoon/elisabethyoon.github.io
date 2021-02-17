@@ -83,7 +83,7 @@ const data = {
         subject: "마켓디자이너스 / Vue",
         images: images.portFolioImage4,
         url: "https://marketdesigners.com/",
-        skills: "Vue / Vue Router / Nuxt / sass / Axios / javascript",
+        skills: "Vue / Vue Router / Nuxt / SCSS / Axios / javascript",
         period: "2019년 7월 ~ 2019년 10월",
         type: "반응형 / 리뉴얼",
         todo: [
