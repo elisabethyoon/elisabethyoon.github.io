@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/elly-portfolio/static/css/main.823ade3c.chunk.css",
-    "main.js": "/elly-portfolio/static/js/main.3b5077fc.chunk.js",
-    "main.js.map": "/elly-portfolio/static/js/main.3b5077fc.chunk.js.map",
+    "main.js": "/elly-portfolio/static/js/main.5d608618.chunk.js",
+    "main.js.map": "/elly-portfolio/static/js/main.5d608618.chunk.js.map",
     "runtime-main.js": "/elly-portfolio/static/js/runtime-main.9b6d3331.js",
     "runtime-main.js.map": "/elly-portfolio/static/js/runtime-main.9b6d3331.js.map",
     "static/js/2.3c1ae713.chunk.js": "/elly-portfolio/static/js/2.3c1ae713.chunk.js",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.9b6d3331.js",
     "static/js/2.3c1ae713.chunk.js",
     "static/css/main.823ade3c.chunk.css",
-    "static/js/main.3b5077fc.chunk.js"
+    "static/js/main.5d608618.chunk.js"
   ]
 }
